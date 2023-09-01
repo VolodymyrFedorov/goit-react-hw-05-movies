@@ -1,0 +1,44 @@
+h4,
+p {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  list-style: none;
+}
+
+.itemList {
+  width: 200px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.itemList:hover,
+.itemList:focus {
+  border: 0.5px solid #f4f4fd;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.itemImage {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #e7e9fc;
+  background: #fff;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.itemInfo {
+  padding: 8px;
+  text-align: center;
+}

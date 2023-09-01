@@ -1,0 +1,80 @@
+h3,
+h2 {
+  margin: 0;
+  margin-bottom: 24px;
+}
+.linkBack {
+  display: block;
+  padding: 8px 8px;
+  margin-bottom: 24px;
+  width: 84px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  background: #f4f4fd;
+  color: #26bec9;
+  font-weight: 500;
+}
+
+.linkBack:hover,
+.linkBack:focus {
+  background: #26bec9;
+  color: #f4f4fd;
+}
+
+.genres {
+  margin-right: 16px;
+}
+
+.boxContant {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+
+  background-color: #f4f4fd;
+  border-radius: 4px;
+}
+
+.postert {
+  display: inline;
+  width: 200px;
+}
+
+.infoContent {
+  width: 720px;
+}
+
+.linkList {
+  padding-left: 0;
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0 0 24px 0;
+}
+
+.linkItem {
+  display: block;
+  padding: 8px 8px;
+  width: 84px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  background: #f4f4fd;
+  color: #26bec9;
+  font-weight: 500;
+}
+
+.active {
+  display: block;
+  padding: 8px 8px;
+  width: 84px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #26bec9;
+  background: #26bec9;
+  color: #f4f4fd;
+  font-weight: 500;
+}
